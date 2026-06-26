@@ -1,0 +1,30 @@
+# Dépendances
+node_modules/
+
+# Build
+dist/
+
+# Prisma : client de test généré
+prisma/generated/
+*.db
+*.db-journal
+
+# Rapports de tests / couverture
+coverage/
+coverage-e2e/
+reports/
+
+# SBOM / rapports de sécurité (générés)
+sbom-*.json
+trivy-report.*
+
+# Environnement / secrets
+.env
+*.env
+!.env.example
+
+# Logs / OS / IDE
+*.log
+.DS_Store
+.idea/
+.vscode/

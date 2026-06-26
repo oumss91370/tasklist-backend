@@ -1,0 +1,15 @@
+node_modules
+dist
+coverage
+coverage-e2e
+reports
+prisma/generated
+*.db
+.git
+.gitignore
+.env
+*.env
+!.env.example
+README.md
+sbom-*.json
+trivy-report.*
